@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - casadocodigo@localhost" uuid="b3b5de9d-9e1f-4b4e-a31f-ef3984c82d68">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="MySQL - casadocodigo_test@localhost" uuid="f500528d-67b6-4037-b2f0-0b2540e583fb">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

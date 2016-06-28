@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout/artigo">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Listando os Produtos</title>
+</head>
+<body>
+<div layout:fragment="container">
+    <div id="container">
+        <span th:if="${sucesso}" th:text="${sucesso}" />
+        <table>
+            <thead>
+            <tr>
+                <td>Titulo</td>
+                <td>Valores</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="product : ${products}">
+                <td th:text="${product.title}"></td>
+                <td th:each="price : ${product.prices}"
+                    th:text="${'[' + price.value + '-' + price.bookType + ']'}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

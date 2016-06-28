@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - casadocodigo@localhost" uuid="950f91d7-6006-445f-96ee-265dadc540ae">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>casadocodigo.*</schema-pattern>
+      <default-schemas>casadocodigo.*</default-schemas>
+    </data-source>
+  </component>
+</project>

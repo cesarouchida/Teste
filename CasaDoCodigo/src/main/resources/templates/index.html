@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout/main">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hello World</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <div class="container">
+        <h1>Olá Mundo!</h1>
+        <a th:href="@{${#mvc.url('formProduct').build()}}">Cadastrar Produto</a>
+        <br/>
+        <a th:href="@{${#mvc.url('listProduct').build()}}">Lista de Produtos</a>
+    </div>
+</div>
+
+</body>
+</html>
